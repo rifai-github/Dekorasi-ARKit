@@ -13,18 +13,4 @@ namespace BaseApps
         public const string GET_CITY = API_ONGKIR + "city?key=" + API_KEY;
         public const string GET_COST = API_ONGKIR + "cost";
     }
-
-    public enum Transition
-    {
-        NullTransition = 0,
-        TRANSITION_TO_LOGIN = 1,
-        TRANSITION_TO_REGISTER = 2
-    }
-
-    public enum StateID
-    {
-        NullStateID = 0,
-        LOGIN = 1,
-        REGISTER = 2
-    }
 }
